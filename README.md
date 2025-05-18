@@ -77,8 +77,8 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 # Download Oxide theme
 wget https://raw.githubusercontent.com/dikiaap/dotfiles/refs/heads/master/.oh-my-zsh/themes/oxide.zsh-theme -P ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/
 
-# Install imagetricks for images in terminal
-yay -S imagetricks
+# Install imagemagick for images in terminal
+yay -S imagemagick
 
 # Download .zshrc configuration
 wget https://raw.githubusercontent.com/xxanqw/dots/refs/heads/main/.zshrc -P ~/
