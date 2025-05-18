@@ -23,7 +23,7 @@ You can install my dotfiles using either the automatic installation script or fo
 <summary><b>Using the installation script</b></summary>
 
 ```bash
-curl -s https://shorty.pp.ua/dots | bash
+curl -s -L https://shorty.pp.ua/dots | bash
 ```
 
 The script will:
