@@ -51,6 +51,11 @@ else
     print_success "Oh-My-Zsh installed"
 fi
 
+# Install imagetricks
+print_step "Installing imagetricks for terminal images"
+yay -S imagetricks --noconfirm || print_error "Failed to install imagetricks"
+print_success "imagetricks installed"
+
 # Install plugins
 print_step "Installing Zsh plugins"
 
